@@ -13,5 +13,6 @@ public class Main {
 
         //Mostrando la información del empleado
         empleado.mostarInformacion();
+        empleado.saludar();
     }
 }

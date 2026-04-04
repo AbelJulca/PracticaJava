@@ -15,4 +15,10 @@ public class Empleado extends Persona{
         System.out.println("Salario: " + salary);
         System.out.println("Full Name: " + getFullName());
     }
+
+    @Override
+    public void saludar() {
+        System.out.println("Hola, soy un empleado. Mi nombre es " + getName()
+                + ", tengo " + getAge() + " años y gano " + salary + " al año.");
+    }
 }
